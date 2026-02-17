@@ -70,6 +70,9 @@ VidaFit/
 ├── fonts/
 │   └── Montserrat
 │
+├── assets/
+│   └── forms.html
+│
 └── index.html
 ```
 
@@ -150,3 +153,4 @@ This project showcases:
 - Practical use of React and JavaScript  
 
 Designed to strengthen my portfolio and support freelance opportunities.
+
