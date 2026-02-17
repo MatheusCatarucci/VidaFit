@@ -1,6 +1,7 @@
 :root {
     --primary-color: #FF2529;
-    --default-background: #1E1E1E;
+    --default-background: rgb(30, 30, 30);
+    --default-background-50: rgba(0, 0, 0, 0.5);
     --default-font: 'Montserrat', sans-serif;
 
     /* Pesos da Montserrat */

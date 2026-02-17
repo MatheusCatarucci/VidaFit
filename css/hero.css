@@ -1,0 +1,21 @@
+.hero {
+    height: 100vh;
+}
+
+.h2-hero {
+    font-size: 23px;
+    display: flex;
+    gap: 40px;
+    color: white;
+}
+
+.h2-hero-1 {
+    font-family: var(--default-font);
+    font-weight: var(--font-light);  /* peso: leve */
+    font-style: normal;  /* estilo normal */
+}
+
+.h2-hero-2 {
+    font-weight: var(--font-bold);  /* peso: bold */
+    font-style: italic;  /* estilo: itálico */
+}
