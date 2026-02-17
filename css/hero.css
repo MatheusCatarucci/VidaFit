@@ -1,5 +1,10 @@
 .hero {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 .h2-hero {
@@ -7,15 +12,42 @@
     display: flex;
     gap: 40px;
     color: white;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 8px;
 }
 
 .h2-hero-1 {
     font-family: var(--default-font);
     font-weight: var(--font-light);  /* peso: leve */
-    font-style: normal;  /* estilo normal */
+    font-style: italic;  /* estilo normal */
 }
 
 .h2-hero-2 {
+    font-family: var(--default-font);
     font-weight: var(--font-bold);  /* peso: bold */
     font-style: italic;  /* estilo: itálico */
+}
+
+.titulo-hero {
+    font-size: var(--font-extra-bold);
+    font-size: 80px;
+    text-align: center;
+    width: 80%;
+    font-style: italic;
+    color: white;
+}
+
+.destaque {
+    color: var(--primary-color);
+    font-style: normal;
+    font-size: 100px;
+}
+
+.matricule-se {
+    padding: 14px 20px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    font-weight: var(--font-bold);
+    font-size: 22px;
 }

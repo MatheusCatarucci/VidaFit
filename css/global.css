@@ -1,21 +1,3 @@
-:root {
-    --primary-color: #FF2529;
-    --default-background: rgb(30, 30, 30);
-    --default-background-50: rgba(30, 30, 30, 0.5);
-    --default-font: 'Montserrat', sans-serif;
-
-    /* Pesos da Montserrat */
-    --font-light: 300;
-    --font-regular: 400;
-    --font-italic: 400;
-    --font-semibold: 600;
-    --font-bold: 700;
-    --font-bold-italic: 700;
-    --font-extrabold: 800;
-    --font-extrabold-italic: 800;
-    --font-black-italic: 900;
-}
-
 /* Montserrat Light */
 @font-face {
     font-family: 'Montserrat';
