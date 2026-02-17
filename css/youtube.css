@@ -1,0 +1,25 @@
+.youtube {
+    padding: 0 165px;
+    background-image: url(../assets/image/background-red.png);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 100vh;
+    color: white;
+    font-weight: var(--font-bold);
+    margin-bottom: 100px;
+}
+
+.p-youtube {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 530px;
+    font-size: 19px;
+}
+
+.video-youtube iframe {
+    width: 500px;
+    aspect-ratio: 16 / 9;
+    height: auto;
+}

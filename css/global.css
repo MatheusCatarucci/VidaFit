@@ -82,7 +82,6 @@ body {
     font-family: var(--default-font);
     background-color: var(--default-background);
     scroll-behavior: smooth;
-    background-image: url('../assets/image/hero-academia.png');
 }
 
 a {
