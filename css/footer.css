@@ -1,26 +1,46 @@
 .footer-parte-1 {
-    padding: 80px 165px;
-    background-image: url(../assets/image/background-red.png);
-    display: flex;
-    justify-content: center;
-    align-items: flex-start; /* ALTERE AQUI */
-    color: white;
-    gap: 100px;
+  padding: 80px 165px;
+  background-image: url(../assets/image/background-red.png);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
 }
 
 .img-footer {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
+
 .img-footer img {
-    width: 270px;
+  width: 270px;
 }
 
 .h3-area {
-    font-size: 20px;
-    margin-bottom: 20px;
+  width: 300px;
+  margin-bottom: 30px;
 }
 
-.p-area {
-    font-size: 16px;
+.p-area-2 {
+  width: 430px;
+  font-size: 22px;
+}
+.p-area-3 {
+  width: 260px;
+  font-size: 22px;
+}
+
+.p-area-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.direitos {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    font-size: 19px;
 }
