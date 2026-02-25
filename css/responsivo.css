@@ -1,0 +1,284 @@
+/* ========================= RESPONSIVIDADE - NOTEBOOKS ========================== */
+
+@media (max-width: 1400px) {
+  /* =========================
+     HEADER
+  ========================== */
+  header {
+    padding: 0 100px 0 40px;
+  }
+
+  /* =========================
+     SEÇÃO UNIDADE MIX
+  ========================== */
+  .unidade-mix p {
+    font-size: 22px;
+  }
+
+  .imagens-unidade {
+    justify-content: space-between;
+    margin: 0 auto 30px auto;
+    width: 760px;
+  }
+
+  .imagens-unidade-img {
+    width: 220px;
+  }
+
+  /* =========================
+     SEÇÃO YOUTUBE
+  ========================== */
+  .p-youtube {
+    max-width: 50%;
+    gap: 20px;
+    font-size: 22px;
+  }
+
+  /* =========================
+     FOOTER
+  ========================== */
+  .footer-parte-1 {
+    padding: 55px 165px;
+  }
+
+  .img-footer img {
+    width: 220px;
+  }
+
+  .h3-area {
+    margin-bottom: 10px;
+  }
+
+  .p-area-2 {
+    width: 300px;
+    font-size: 15px;
+  }
+
+  .p-area-3 {
+    width: 180px;
+    font-size: 15px;
+  }
+
+  .direitos {
+    padding: 14px 0;
+    font-size: 14px;
+  }
+}
+
+/* =========================
+   RESPONSIVO MOBILE
+   ========================= */
+
+@media (max-width: 768px) {
+  /* =========================
+     GERAL
+  ========================== */
+  body {
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    text-align: center;
+  }
+
+  /* =========================
+     HEADER
+  ========================== */
+  header {
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .navbar,
+  .botao-header {
+    display: none;
+  }
+
+  .logo-header {
+    width: 150px;
+  }
+
+  /* =========================
+     HERO
+  ========================== */
+  .hero {
+    height: auto;
+    padding: 100px 20px 80px 20px;
+    gap: 25px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .h2-hero {
+    font-size: 16px;
+    letter-spacing: 3px;
+    gap: 10px;
+  }
+
+  .titulo-hero {
+    font-size: 32px;
+    letter-spacing: 2px;
+    width: 100%;
+  }
+
+  .destaque {
+    font-size: 40px;
+  }
+
+  .matricule-se {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+
+  /* =========================
+     UNIDADE
+  ========================== */
+  .unidade {
+    padding: 40px 20px;
+  }
+
+  .unidade-parte-1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .unidade-mix {
+    width: 100%;
+  }
+
+  .h2-unidade {
+    width: 100%;
+    font-size: 44px;
+    margin-bottom: 20px;
+  }
+
+  .unidade .p-unidade {
+    font-size: 16px;
+  }
+
+  .unidade-img img {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .unidade-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  /* =========================
+     GALERIA
+  ========================== */
+  .unidades-parte-2 {
+    padding: 30px 0;
+  }
+
+  .imagens-unidade {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .imagens-unidade-img {
+    padding: 20px;
+    background-color: var(--default-background-50);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 350px;
+  }
+
+  /* =========================
+     YOUTUBE
+  ========================== */
+  .youtube {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 30px;
+    height: auto;
+    text-align: center;
+  }
+
+  .video-youtube iframe {
+    width: 100%;
+    height: 200px;
+  }
+
+  .p-youtube {
+    max-width: 100%;
+    font-size: 16px;
+    gap: 15px;
+  }
+
+  /* =========================
+     MAPA
+  ========================== */
+  .mapa {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .titulo-mapa {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .mapa iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  /* =========================
+     FOOTER
+  ========================== */
+  .footer-parte-1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .img-footer img {
+    width: 160px;
+  }
+
+  .area {
+    width: 100%;
+  }
+
+  .h3-area {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  .p-area-2 {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .p-area-div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .p-area-3 {
+    font-size: 15px;
+  }
+
+  .direitos {
+    padding: 15px 10px;
+    font-size: 13px;
+    text-align: center;
+  }
+}
