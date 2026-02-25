@@ -258,6 +258,8 @@
   .h3-area {
     margin-bottom: 15px;
     font-size: 18px;
+    text-align: center;  /* ← adicionar */
+    width: 100%;         /* ← adicionar */
   }
 
   .p-area-2 {
